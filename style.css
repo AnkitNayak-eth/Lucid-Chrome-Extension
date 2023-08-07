@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 600px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.5);
+}
+
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    position: absolute;
+    bottom: 60px;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #bb73e0 0%, #ff8ddb 100%);
+}
+
+.musicBox {
+    border-radius: 1rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    background-image: url("/Images/rain1.jpg");
+    border: 2px solid white;
+}
+
+.musicBox #title {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.9);
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+}
+
+.imgBox {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+.imgBox1 {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.musicBox1 {
+    border-radius: 1rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    background-image: url("/Images/ocean1.jpg");
+    border: 2px solid white;
+}
+
+.musicBox1 #title {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.9);
+}
+
+.imgBox1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+}
+
+
+.imgBox2 {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.musicBox2 {
+    border-radius: 1rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    background-image: url("/Images/woods1.jpg");
+    border: 2px solid white;
+}
+
+
+.musicBox2 #title {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.9);
+}
+
+.imgBox2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+}
+
+.imgBox3 {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.imgBox3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+}
+
+.musicBox3 {
+    border-radius: 1rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    background-image: url("/Images/night1.jpg");
+    border: 2px solid white;
+}
+
+.musicBox3 #title {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.9);
+}
+
+
+.imgBox4 {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.musicBox4 {
+    border-radius: 1rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1em;
+    background-image: url("/Images/muse1.png");
+    border: 2px solid white;
+}
+
+
+.musicBox4 #title {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 0.9);
+}
+
+
+.imgBox4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+}
+
+
+
+
+.anim {
+    animation-name: ripple;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255, 255, 255), 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    50% {
+        box-shadow: 0 0 0 30px #fff0, 0 0 0 50px #fff0;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+    }
+}
+
+.musicControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicControls #play {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 3rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: pink;
+    transition: all ease-in-out;
+}
+
+.musicControls #play:active {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.musicControls #play1 {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 3rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: pink;
+    transition: all ease-in-out;
+}
+
+.musicControls #play1:active {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.musicControls #play2 {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 3rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: pink;
+    transition: all ease-in-out;
+}
+
+.musicControls #play2:active {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+.musicControls #play3 {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 3rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: pink;
+    transition: all ease-in-out;
+}
+
+.musicControls #play3:active {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.musicControls #play4 {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 3rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgb(0, 0, 0, 0.2);
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: pink;
+    transition: all ease-in-out;
+}
+
+.musicControls #play4:active {
+    transform: scale(1.1);
+}
+
+.cards {
+    margin-bottom: 5rem;
+    position: relative;
+    height: 500px;
+    width: 260px;
+    perspective: 300px;
+    transform-style: preserve-3d;
+    margin: 0.5em;
+}
+
+.cards label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.55s ease;
+}
+
+#s1:checked~.cards #slide4,
+#s2:checked~.cards #slide5,
+#s3:checked~.cards #slide1,
+#s4:checked~.cards #slide2,
+#s5:checked~.cards #slide3 {
+    transform: translate3d(-70%, 0, -220px);
+}
+
+#s1:checked~.cards #slide5,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2,
+#s4:checked~.cards #slide3,
+#s5:checked~.cards #slide4 {
+    transform: translate3d(-35%, 0, -120px);
+}
+
+#s1:checked~.cards #slide1,
+#s2:checked~.cards #slide2,
+#s3:checked~.cards #slide3,
+#s4:checked~.cards #slide4,
+#s5:checked~.cards #slide5 {
+    transform: translate3d(0, 0, 0);
+}
+
+#s1:checked~.cards #slide2,
+#s2:checked~.cards #slide3,
+#s3:checked~.cards #slide4,
+#s4:checked~.cards #slide5,
+#s5:checked~.cards #slide1 {
+    transform: translate3d(35%, 0, -120px);
+}
+
+#s1:checked~.cards #slide3,
+#s2:checked~.cards #slide4,
+#s3:checked~.cards #slide5,
+#s4:checked~.cards #slide1,
+#s5:checked~.cards #slide2 {
+    transform: translate3d(70%, 0, -220px);
+}
+
+input {
+    visibility: hidden;
+}
+
+
+.Social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.Social-media a {
+    display: flex;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 124, 196, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 124, 196, 0);
+    transition: transform 0.5s;
+    margin: 5px;
+}
+
+.Social-media a i {
+    font-size: 10px;
+    color: #777;
+    transition: transform 0.5s;
+}
+
+.Social-media a:hover {
+    box-shadow: inset 4px 4px 6px -2px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px -1px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 124, 196, 0.1);
+    transform: translateY(2px);
+}
