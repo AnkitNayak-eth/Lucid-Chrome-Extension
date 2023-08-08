@@ -16,7 +16,7 @@ Lucid Chrome Extension is a simple browser extension that plays relaxing music i
 
 ## Installation
 
-#For Normal Users
+# For Normal Users
 
 Download Cipher.crx.zip
 Open a new tab in Chrome and navigate to chrome://extensions.
@@ -25,7 +25,7 @@ Chrome will display a confirmation dialog. Click "Add extension" to install the 
 Chrome will install the extension, and you should see it added to the list of installed extensions.
 The Cipher Chrome Extension will be installed and ready to use.
 
-#For Developers
+# For Developers
 Clone or download this repository to your local machine.
 Open Google Chrome and enter chrome://extensions in the address bar.
 Enable the "Developer mode" toggle switch in the top-right corner of the extensions page.
